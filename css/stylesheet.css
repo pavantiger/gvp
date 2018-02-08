@@ -1,0 +1,378 @@
+body {
+  background-color: #f2f2f2; }
+
+p {
+  margin: 0px !important;
+  display: block;
+  -webkit-margin-before: 0em !important;
+  -webkit-margin-after: 0em !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important; }
+
+.row {
+  margin-top: 20px; }
+
+.navbar {
+  background-color: #d02323 !important;
+  padding: 0px !important; }
+
+.nav-link {
+  color: #ffffff !important;
+  padding: 10px; }
+
+.clr {
+  clear: both; }
+
+.modal-header {
+  background-color: #d02323 !important;
+  color: #fff; }
+
+#header {
+  width: 100%;
+  background-color: #fff; }
+
+.header2 {
+  background-color: #007bff;
+  padding: 40px 0px;
+  color: #ffffff; }
+
+.mySlides img {
+  width: 100%;
+  height: 400px; }
+
+.slide_content {
+  width: 100%;
+  height: 400px; }
+
+.swa1, .swa2 {
+  width: 25%;
+  background-color: darkorange;
+  height: 195px;
+  float: right;
+  padding-top: 10px;
+  font-size: 14px; }
+
+.swa1 img, .swa2 img {
+  margin-bottom: 10px; }
+
+.swa2 {
+  margin-top: 10px; }
+
+.w3-black, .w3-hover-black:hover {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.4) !important; }
+
+.w3-btn, .w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.w3-btn, .w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap; }
+
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%); }
+
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%); }
+
+.w3-display-container {
+  position: relative; }
+
+.w3-content {
+  max-width: auto;
+  margin: auto; }
+
+.w3-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important; }
+
+.w3-large {
+  font-size: 13px !important; }
+
+.w3-container, .w3-panel {
+  padding: 0.01em 10px; }
+
+.w3-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.w3-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.w3-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+.w3-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.w3-animate-fading {
+  animation: fading 4s infinite; }
+
+@keyframes fading {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 1; } }
+footer {
+  background-color: #fff;
+  padding: 20px 0px;
+  margin-top: 20px;
+  border-top: solid 5px #b0b0b0; }
+
+.card1, .card2, .card3 {
+  color: red !important; }
+
+.card {
+  margin-top: 20px; }
+
+.card1:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transition-duration: 1s;
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+.card2:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transition-duration: 1s;
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+.card3:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  transition-duration: 1s;
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+.card1 {
+  background-image: url(../images/principal_desk.jpg);
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.card2 {
+  background-image: url(../images/department.jpg);
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.card3 {
+  background-image: url(../images/gallery.jpg);
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.card-body {
+  color: #fff !important; }
+
+.list-right {
+  border: solid 0px #b0b0b0 !important;
+  margin-bottom: 5px;
+  padding: 10px 10px !important; }
+
+.list-right:hover {
+  background-color: #cc0000 !important;
+  color: #fff; }
+
+.list-group-item {
+  border-radius: 0px !important; }
+
+.list-hover:hover {
+  background-color: #828484;
+  color: #fff; }
+
+.readmore {
+  background-color: transparent !important;
+  border: solid 2px #F8E700;
+  border-radius: 0px;
+  color: #fff;
+  margin-top: 20px;
+  width: 200px; }
+
+.readmore:hover {
+  background-color: #F8E700 !important;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1); }
+
+/*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover); }
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0); }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover); } }
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover); }
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em); }
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover); }
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover); }
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color); }
+  .offset:hover, .offset:focus {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover); }
+
+.fill {
+  --color: #a972cb;
+  --hover: #a972cb; }
+
+.pulse {
+  --color: #fffc00;
+  --hover: #fffc00; }
+
+.close {
+  --color: #ff7f82;
+  --hover: #ff7f82; }
+
+.raise {
+  --color: #ffa260;
+  --hover: #ffa260; }
+
+.up {
+  --color: #e4cb58;
+  --hover: #e4cb58; }
+
+.slide {
+  --color: #8fc866;
+  --hover: #8fc866; }
+
+.offset {
+  --color: #19bc8b;
+  --hover: #19bc8b; }
+
+a.button {
+  color: var(--color);
+  transition: 0.25s; }
+  a.button:hover, a.button:focus {
+    border-color: var(--hover);
+    color: #fff; }
+
+a.button {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-variant: small-caps !important;
+  letter-spacing: 1px !important;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.8em 3em;
+  cursor: pointer;
+  margin-top: 20px !important;
+  text-decoration: none; }
+
+.nav-item {
+  padding: 0px 30px; }
+
+.nav-item:hover {
+  background-color: maroon; }
+
+.bg-large {
+  padding: 10px 15px; }
+
+tr td {
+  vertical-align: middle !important; }
+
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-6 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.list_left:hover {
+  background-color: aqua;
+  cursor: pointer; }
+
+.map {
+  margin-top: 10px; }
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: -30px; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #d02323;
+  color: #fff; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }

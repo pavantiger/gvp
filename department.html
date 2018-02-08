@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(function(){
+  $("#headermaster").load("header.html");
+  $("#footermaster").load("footer.html");
+  $("#rightmaster").load("right.html");
+});
+</script>
+</head>
+<body>
+<div id="headermaster"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active display-4" aria-current="page" style="font-size: 2rem">List Of Departments</li>
+	  
+  </ol>
+</nav>
+	<div class="container-fluid">
+	
+	<div class="list-group">
+      	  <a href="d_CivilEngineering.html" class="list-group-item list-group-item-action list-right" style="background-color: lightgray">
+      	  <img src="images/tick.png" />Civil Engineering</a>
+      	  
+		  <a href="d_DepartmentofScience.html" class="list-group-item list-group-item-action list-right" style="background-color: powderblue">
+		  <img src="images/tick.png" />Department of Science</a>
+		  
+		  <a href="d_ComputerScience&Engg.html" class="list-group-item list-group-item-action list-right" style="background-color: lightgray">
+		  <img src="images/tick.png" />Computer Science & Engg</a>
+		  
+		  <a href="d_ElectronicsandCommunication&Engg.html" class="list-group-item list-group-item-action list-right" style="background-color: powderblue">
+		  <img src="images/tick.png" />Electronics and Communication & Engg</a>
+		  
+		  <a href="d_ElectricalEngineering.html" class="list-group-item list-group-item-action list-right" style="background-color: lightgray">
+		  <img src="images/tick.png" />Electrical Engineering</a>
+		  
+		  <a href="d_MechanicalEngineering.html" class="list-group-item list-group-item-action list-right" style="background-color: powderblue">
+		  <img src="images/tick.png" />Mechanical Engineering</a>
+	  </div>
+	
+	
+	  </div>
+		</div>
+		<div class="col-md-3">
+			<div id="rightmaster"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="footermaster"></div>
+
+</body>
+</html>
